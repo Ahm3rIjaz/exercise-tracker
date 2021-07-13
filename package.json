@@ -1,0 +1,35 @@
+{
+  "name": "exercise-tracker",
+  "version": "1.0.0",
+  "description": "Keeps track of a user's exercise",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahm3rIjaz/exercise-tracker.git"
+  },
+  "keywords": [
+    "expressjs",
+    "nodejs",
+    "mongodb",
+    "freecodecamp"
+  ],
+  "author": "Ahm3rIjaz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ahm3rIjaz/exercise-tracker/issues"
+  },
+  "homepage": "https://github.com/Ahm3rIjaz/exercise-tracker#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}

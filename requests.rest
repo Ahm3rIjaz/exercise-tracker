@@ -1,0 +1,23 @@
+###
+POST http://localhost:3003/api/users
+Content-Type: application/json
+
+{
+  "username": "yumm"
+}
+
+###
+GET http://localhost:3003/api/users
+
+###
+POST http://localhost:3003/api/users/60ed02cdb4e8b8158d0b0cdc/exercises
+Content-Type: application/json
+
+{
+  "description": "testing",
+  "duration": "30",
+  "date": "1990-07-07"
+}
+
+###
+GET http://localhost:3003/api/users/60ed02cdb4e8b8158d0b0cdc/logs?from=1980-01-01&limit=2
